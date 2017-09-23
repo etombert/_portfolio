@@ -571,6 +571,10 @@ br {
       background-image: url(../../src/images/projects/yao.jpg);
       background-size: cover;
       background-repeat: no-repeat; }
+    #fullpage #section1 .silde11 {
+      background-image: url(../../src/images/projects/bobcar.jpg);
+      background-size: cover;
+      background-repeat: no-repeat; }
   #fullpage #section2 .icon {
     font-family: "fontAwesome";
     font-size: 4em;
