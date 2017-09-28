@@ -148,6 +148,29 @@
 					}
 
 				}
+
+				.bloc-4 {
+					width: 290px;
+					
+					span.title {
+					    @include transform(rotate(0));
+						font-size: 1.5em;
+						font-style: normal;
+						position: static;
+						margin-bottom: 20px;
+					}
+
+					ul.list {
+						position: static;
+						@include transform(translate(0,0));
+					    text-align: center;
+					    margin: auto;
+					}
+
+					li {
+						list-style: none;
+					}
+				}
 		
 
 			}
@@ -311,6 +334,10 @@
 
 					}
 
+				}
+
+				.bloc-4 {
+					display: none;
 				}
 		
 

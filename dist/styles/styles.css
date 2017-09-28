@@ -531,6 +531,31 @@ br {
               -webkit-filter: contrast(200%);
               /* Safari 6.0 - 9.0 */
               filter: contrast(200%); }
+      #fullpage #section1 .fp-tableCell .bloc-4 {
+        position: absolute;
+        top: 65%;
+        left: 60px;
+        width: 400px;
+        height: 100px; }
+        #fullpage #section1 .fp-tableCell .bloc-4 span.title  {
+          -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+          display: block;
+          font-size: 1.5em;
+          font-style: italic;
+          position: absolute;
+          top: 40px; }
+        #fullpage #section1 .fp-tableCell .bloc-4 ul.list {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          color: white;
+          text-align: left;
+          line-height: 1.5; }
+        #fullpage #section1 .fp-tableCell .bloc-4 li {
+          list-style: initial; }
     #fullpage #section1 .silde1 {
       background-image: url(../../src/images/projects/ratp.jpg);
       background-size: cover;
@@ -682,6 +707,23 @@ br {
     display: none; }
   #fullpage #section1 .fp-tableCell .bloc-3 span.title  {
     display: none; }
+  #fullpage #section1 .fp-tableCell .bloc-4 {
+    width: 290px; }
+    #fullpage #section1 .fp-tableCell .bloc-4 span.title  {
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+      font-size: 1.5em;
+      font-style: normal;
+      position: static;
+      margin-bottom: 20px; }
+    #fullpage #section1 .fp-tableCell .bloc-4 ul.list {
+      position: static;
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0);
+      text-align: center;
+      margin: auto; }
+    #fullpage #section1 .fp-tableCell .bloc-4 li {
+      list-style: none; }
   #fullpage #section3 .fp-tableCell {
     display: block; }
   #fullpage #section3 .bloc-1 {
@@ -748,7 +790,9 @@ br {
     #fullpage #section1 .fp-tableCell .bloc-3 .preview:hover {
       -webkit-filter: blur(0);
       /* Safari 6.0 - 9.0 */
-      filter: blur(0); } }
+      filter: blur(0); }
+  #fullpage #section1 .bloc-4 {
+    display: none; } }
 
 @media screen and (max-width: 750px) {
   #fullpage h1 {
